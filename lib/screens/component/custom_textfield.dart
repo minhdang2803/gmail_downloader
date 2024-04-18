@@ -115,7 +115,7 @@ class _CustomTextfieldState extends State<CustomTextfield> {
         widget.onSubmitted?.call(value);
       },
       onTapOutside: (event) {
-        FocusScope.of(context).requestFocus(new FocusNode());
+        FocusScope.of(context).requestFocus(focusNode);
       },
     );
   }

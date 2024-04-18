@@ -120,8 +120,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     BlocBuilder<HomeBlocCubit, HomeState>(
                       builder: (context, state) {
                         return CustomButton(
-                          isDisable: state.isEmailEmpty == true ||
-                              state.isPasswordEmpty == true,
+                          // isDisable: state.isEmailEmpty == true ||
+                          //     state.isPasswordEmpty == true,
+                          isDisable: false,
                           backgroundColor: ColorStyle.secondary,
                           text: "Login",
                           textStyle: FontResource.heading5.copyWith(

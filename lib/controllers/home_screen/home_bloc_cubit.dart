@@ -34,11 +34,11 @@ class HomeBlocCubit extends Cubit<HomeState> {
     return null;
   }
 
-  void onSubmit(BuildContext context) {
+  void onSubmit(BuildContext context) async {
     try {
       if (formKey.currentState?.validate() == true) {
         emit(state.copyWith(state: HomeStatus.loading));
-        context.read<UserCubit>().loginByGoogle();
+        await context.read<UserCubit>().loginByGoogle();
         emit(state.copyWith(state: HomeStatus.success));
       }
     } catch (error) {
