@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393571818824",
+    "project_id": "downloader-1f3d9",
+    "storage_bucket": "downloader-1f3d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393571818824:android:b74ac9620d813a64fe277d",
+        "android_client_info": {
+          "package_name": "com.example.attatchments_downloader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0bIaZg0128NebKkZ5R0wXOMxdP-YCbLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
